@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <title>fasikaportfolio</title>
         <link rel="stylesheet" href="index.css">
+        <script src="https://kit.fontawesome.com/d359e390a1.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <div id="header">
@@ -31,7 +32,7 @@
             <div class="container">
                 <div class="row">
                     <div class="about-col-1">
-                        <img src="images/>
+                        <img src="bbbb.png">
                     </div>
                     <div class="about-col-2">
                         <h1 class="sub-title">About Me</h1>
@@ -68,15 +69,92 @@
             </div>
          </div>
          <!--------------services----------->
-        <div id="service">
+        <div id="Services">
             <div class="container">
-                <h1 class="sub-title">My Services</h1>
+                <h1 class="sub-title">Mys Services</h1>
                 <div class="service-list">
-                    
+                    <div>
+                        <i class="fa-solid fa-network-wired"></i>
+                        <h2>Networking</h2>
+                        <p>Desining and implementing of ethio telecom local area office network</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>web desining</h2>
+                        <p>Desining and implementing of my personal Portfolio</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-droplet"></i>
+                        <h2>smart plant watering system</h2>
+                        <p>produce smart watering system which solve water wastage specially in desert area</p>
+                        <a href="#">Learn more</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <script>
+        <!-----------------------------portfolio-------------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="dd.jpg">
+                        <div class="layer">
+                            <h3>Smart system</h3>
+                            <p>The system is conver manual plant watering system into digital by making waterpump on and off.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="To Do List.jpeg">
+                        <div class="layer">
+                            <h3>Task Management app</h3>
+                            <p>The app perform register task,mark completed task ,assign task to other and send notification. </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="22.png">
+                        <div class="layer">
+                            <h3>Network design</h3>
+                            <p>Design ethio telecom Information Security Office network.The network include the function of VLAN ,DHCP configuration and other.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <!----------------contact-------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-sharp fa-solid fa-paper-plane"></i>fasikag95@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>+251954701961</p>
+                            <div class="social-icons">
+                                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                  <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                   <a href="https://www.linkedin.com/in/fasika-getachew-07a5312aa"><i class="fa-brands fa-linkedin"></i></a>
+                             </div>
+                             <a href="NetAcad Learning Transcript.pdf" download class ="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                      <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows = "6" placeholder="Your Message"></textarea>
+                        <button type ="Submit">Submit</button>
+                      </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <script>
              function opentab(tabname) {
             var i;
             var x = document.getElementsByClassName("tab-contents");
